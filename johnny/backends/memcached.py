@@ -75,4 +75,4 @@ if django.VERSION[:2] > (1, 2):
             # pylibmc doesn't like our definition of 0
             if timeout == 0:
                 return 2591999
-            return super(PyLibMCCache, self)._get_memcache_timeout(timeout)
+            return super(PyLibMCCacheSasl, self)._get_memcache_timeout(timeout)
