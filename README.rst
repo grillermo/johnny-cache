@@ -23,3 +23,8 @@ Please read `The full documentation to Johnny Cache
 
 .. _django: http://djangoproject.com
 .. _memcached: http://memcached.org
+
+In this fork
+------
+
+I just added a new backend with support for django-pylibmc-sasl
